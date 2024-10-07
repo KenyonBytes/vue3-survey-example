@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageName": "Basic Info",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "date",
+          "label": "What is your birth date?",
+          "component": "BInput"
+        },
+        {
+          "id": "q2",
+          "type": "radio",
+          "label": "What's your sex?",
+          "options": ["Male", "Female", "None ya' business"],
+          "component": "BRadioGroup"
+        }
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "pageName": "About You",
+      "questions": [
+        {
+          "id": "q3",
+          "type": "checkbox",
+          "label": "Select your hobbies:",
+          "options": [
+            "Reading",
+            "Traveling",
+            "Cooking",
+            "Writing Cool Software!",
+            "Long walks on the beach"
+          ],
+          "component": "BCheckboxGroup"
+        },
+        {
+          "id": "q4",
+          "type": "text",
+          "label": "What's your ideal vacation spot?",
+          "placeholder": "Bahamas, Hawaii, Your Couch...",
+          "component": "BInput"
+        },
+        {
+          "id": "q5",
+          "type": "textarea",
+          "label": "What's your favorite childhood memory?",
+          "placeholder": "Birthdays, times with friends, times you faked being sick to miss school...",
+          "component": "BTextarea"
+        }
+      ]
+    },
+    {
+      "pageNumber": 3,
+      "pageName": "Working Habits",
+      "questions": [
+        {
+          "id": "q6",
+          "type": "radio",
+          "label": "Ideal working hours?",
+          "options": [
+            "Standard 9am-5pm",
+            "Early Bird 7am-3pm",
+            "Night Owl 12pm-8pm",
+            "The Dreamer 11am-1pm"
+          ],
+          "component": "BRadioGroup"
+        },
+        {
+          "id": "q7",
+          "type": "checkbox",
+          "label": "I like to...",
+          "options": ["Travel for work", "Have zillions of Zoom meetings", "Do awesome dev work"],
+          "component": "BCheckboxGroup"
+        },
+        {
+          "id": "q8",
+          "type": "textarea",
+          "label": "Anything else regarding your ideal workplace and/or work habits?",
+          "placeholder": "Or anything else we need to know?",
+          "component": "BTextarea"
+        }
+      ]
+    }
+  ]
+}
